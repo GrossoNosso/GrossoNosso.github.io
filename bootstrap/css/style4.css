@@ -1,0 +1,108 @@
+.navbar-brand {
+color: yellow !important;
+}
+.icon {
+  height: 50px !important;
+  width: 50px;
+}
+/* Body-main */
+body {
+  background-image: url("../images/wall.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body {
+  min-height: calc(100vh - 150px);
+}
+.box {
+  margin-top: 20px;
+  background-color: #343a40;
+  height: 200px;
+  width: 100%;
+}
+.box h1 {
+margin-left: 450px;
+color: yellow;
+}
+/* body-content*/
+.content {
+  background-color: grey;
+  height: 200px;
+  margin-top: 50px;
+}
+.Videoboxes {
+  background-color: grey;
+  height: 230px;
+  margin-top: 50px;
+}
+.Verhaal {
+  background-color: grey;
+  height: 220px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.Verhaal2 {
+  background-color: grey;
+  height: 220px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+/* Table */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+/* contactforum */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.contactforum {
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: #343a40;
+  padding: 20px;
+}
+label {
+  color: yellow !important;
+}
+/* footer */
+  footer {
+    height: 100px;
+    width: 100%;
+    background-color: #343a40;
+    margin-left: 0px !important;
+    margin-top: 100px;
+    position: absolute;
+}
+/* speciale footer voor contact*/
+.footercontactpage {
+  height: 100px;
+  width: 100%;
+  background-color: #343a40;
+  margin-left: 0px !important;
+  margin-top: 150px;
+  position: absolute;
+}
